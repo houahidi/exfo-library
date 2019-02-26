@@ -44,7 +44,17 @@
 
 
 	</dependencies>
-
+ <!-- 
+  add nexus identity to maven setting.xml
+ 
+ 	<server>
+         <id>nexus</id>
+         <username>admin</username>
+         <password>admin</password>
+    </server>   
+ 
+ 
+  -->
    <distributionManagement>
 		<!-- Publish versioned releases here -->
 		<repository>
