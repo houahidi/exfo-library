@@ -60,14 +60,14 @@
 		<repository>
 			<id>nexus</id>
 			<name>My releases</name>
-			<url>http://10.72.129.243:8081/nexus/content/repositories/releases/</url>
+			<url>http://10.72.129.243:8081/repository/maven-releases/</url>
 		</repository>
 
 		<!-- Publish snapshots here -->
 		<snapshotRepository>
 			<id>nexus</id>
 			<name>My snapshots</name>
-			<url>http://10.72.129.243:8081/nexus/content/repositories/snapshots/</url>
+			<url>http://10.72.129.243:8081/repository/maven-snapshots/</url>
 		</snapshotRepository>
 		<!-- 
 		<site>
